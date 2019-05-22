@@ -116,7 +116,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 15);
             this.label2.TabIndex = 6;
-            this.label2.Text = "String to Test";
+            this.label2.Text = "String.Length";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label10
