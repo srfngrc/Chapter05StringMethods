@@ -1,0 +1,10 @@
+C:\VSRepositories\Chapter05StringMethodsREPO\bin\Debug\Chapter05StringMethodsPROJ.exe.config
+C:\VSRepositories\Chapter05StringMethodsREPO\bin\Debug\Chapter05StringMethodsPROJ.exe
+C:\VSRepositories\Chapter05StringMethodsREPO\bin\Debug\Chapter05StringMethodsPROJ.pdb
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.csprojAssemblyReference.cache
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.Form1.resources
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.Properties.Resources.resources
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.csproj.GenerateResource.cache
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.csproj.CoreCompileInputs.cache
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.exe
+C:\VSRepositories\Chapter05StringMethodsREPO\obj\Debug\Chapter05StringMethodsPROJ.pdb
