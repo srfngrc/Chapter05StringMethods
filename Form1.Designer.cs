@@ -39,26 +39,26 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtLength = new System.Windows.Forms.TextBox();
+            this.txtStartIndex = new System.Windows.Forms.TextBox();
+            this.txtRemove = new System.Windows.Forms.TextBox();
+            this.txtReplaceChars = new System.Windows.Forms.TextBox();
+            this.txtReplaceResult = new System.Windows.Forms.TextBox();
+            this.txtLastChar = new System.Windows.Forms.TextBox();
+            this.txtToLower = new System.Windows.Forms.TextBox();
+            this.txtToUpper = new System.Windows.Forms.TextBox();
+            this.txtSearchChar = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.lblIndexOf = new System.Windows.Forms.Label();
+            this.lblLastIndexOf = new System.Windows.Forms.Label();
+            this.txtSearchIndex = new System.Windows.Forms.TextBox();
+            this.txtLastIndexOf = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.lblSubstring = new System.Windows.Forms.Label();
+            this.txtEndIndex = new System.Windows.Forms.TextBox();
+            this.txtSubstringResult = new System.Windows.Forms.TextBox();
+            this.txtRemoveResult = new System.Windows.Forms.TextBox();
+            this.txtReplaceWith = new System.Windows.Forms.TextBox();
             this.Btn_Test = new System.Windows.Forms.Button();
             this.Btn_Close = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -171,68 +171,68 @@
             this.label7.Text = "Extract Substring from index:\r\n";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox1
+            // txtLength
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(38, 20);
-            this.textBox1.TabIndex = 11;
+            this.txtLength.Location = new System.Drawing.Point(238, 61);
+            this.txtLength.Name = "txtLength";
+            this.txtLength.Size = new System.Drawing.Size(38, 20);
+            this.txtLength.TabIndex = 11;
             // 
-            // textBox2
+            // txtStartIndex
             // 
-            this.textBox2.Location = new System.Drawing.Point(238, 214);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(26, 20);
-            this.textBox2.TabIndex = 12;
+            this.txtStartIndex.Location = new System.Drawing.Point(238, 214);
+            this.txtStartIndex.Name = "txtStartIndex";
+            this.txtStartIndex.Size = new System.Drawing.Size(26, 20);
+            this.txtStartIndex.TabIndex = 12;
             // 
-            // textBox3
+            // txtRemove
             // 
-            this.textBox3.Location = new System.Drawing.Point(238, 244);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(78, 20);
-            this.textBox3.TabIndex = 13;
+            this.txtRemove.Location = new System.Drawing.Point(238, 244);
+            this.txtRemove.Name = "txtRemove";
+            this.txtRemove.Size = new System.Drawing.Size(78, 20);
+            this.txtRemove.TabIndex = 13;
             // 
-            // textBox4
+            // txtReplaceChars
             // 
-            this.textBox4.Location = new System.Drawing.Point(238, 274);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(61, 20);
-            this.textBox4.TabIndex = 14;
+            this.txtReplaceChars.Location = new System.Drawing.Point(238, 274);
+            this.txtReplaceChars.Name = "txtReplaceChars";
+            this.txtReplaceChars.Size = new System.Drawing.Size(61, 20);
+            this.txtReplaceChars.TabIndex = 14;
             // 
-            // textBox5
+            // txtReplaceResult
             // 
-            this.textBox5.Location = new System.Drawing.Point(238, 304);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(447, 20);
-            this.textBox5.TabIndex = 15;
+            this.txtReplaceResult.Location = new System.Drawing.Point(238, 304);
+            this.txtReplaceResult.Name = "txtReplaceResult";
+            this.txtReplaceResult.Size = new System.Drawing.Size(447, 20);
+            this.txtReplaceResult.TabIndex = 15;
             // 
-            // textBox6
+            // txtLastChar
             // 
-            this.textBox6.Location = new System.Drawing.Point(238, 181);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(26, 20);
-            this.textBox6.TabIndex = 16;
+            this.txtLastChar.Location = new System.Drawing.Point(238, 181);
+            this.txtLastChar.Name = "txtLastChar";
+            this.txtLastChar.Size = new System.Drawing.Size(26, 20);
+            this.txtLastChar.TabIndex = 16;
             // 
-            // textBox7
+            // txtToLower
             // 
-            this.textBox7.Location = new System.Drawing.Point(238, 126);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(447, 20);
-            this.textBox7.TabIndex = 17;
+            this.txtToLower.Location = new System.Drawing.Point(238, 126);
+            this.txtToLower.Name = "txtToLower";
+            this.txtToLower.Size = new System.Drawing.Size(447, 20);
+            this.txtToLower.TabIndex = 17;
             // 
-            // textBox8
+            // txtToUpper
             // 
-            this.textBox8.Location = new System.Drawing.Point(238, 94);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(447, 20);
-            this.textBox8.TabIndex = 18;
+            this.txtToUpper.Location = new System.Drawing.Point(238, 94);
+            this.txtToUpper.Name = "txtToUpper";
+            this.txtToUpper.Size = new System.Drawing.Size(447, 20);
+            this.txtToUpper.TabIndex = 18;
             // 
-            // textBox9
+            // txtSearchChar
             // 
-            this.textBox9.Location = new System.Drawing.Point(238, 154);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(26, 20);
-            this.textBox9.TabIndex = 19;
+            this.txtSearchChar.Location = new System.Drawing.Point(238, 154);
+            this.txtSearchChar.Name = "txtSearchChar";
+            this.txtSearchChar.Size = new System.Drawing.Size(26, 20);
+            this.txtSearchChar.TabIndex = 19;
             // 
             // label11
             // 
@@ -244,39 +244,39 @@
             this.label11.Text = "Find:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label12
+            // lblIndexOf
             // 
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label12.Location = new System.Drawing.Point(270, 157);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(306, 15);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "txtInput.Text.IndexOf(\"v\",0) =";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblIndexOf.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblIndexOf.Location = new System.Drawing.Point(270, 157);
+            this.lblIndexOf.Name = "lblIndexOf";
+            this.lblIndexOf.Size = new System.Drawing.Size(306, 15);
+            this.lblIndexOf.TabIndex = 21;
+            this.lblIndexOf.Text = "txtInput.Text.IndexOf(\"v\",0) =";
+            this.lblIndexOf.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label13
+            // lblLastIndexOf
             // 
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label13.Location = new System.Drawing.Point(270, 181);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(306, 15);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "txtInput.Text.LastIndexOf(\"s\") =";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblLastIndexOf.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblLastIndexOf.Location = new System.Drawing.Point(270, 181);
+            this.lblLastIndexOf.Name = "lblLastIndexOf";
+            this.lblLastIndexOf.Size = new System.Drawing.Size(306, 15);
+            this.lblLastIndexOf.TabIndex = 22;
+            this.lblLastIndexOf.Text = "txtInput.Text.LastIndexOf(\"s\") =";
+            this.lblLastIndexOf.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox10
+            // txtSearchIndex
             // 
-            this.textBox10.Location = new System.Drawing.Point(582, 156);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(35, 20);
-            this.textBox10.TabIndex = 23;
+            this.txtSearchIndex.Location = new System.Drawing.Point(582, 156);
+            this.txtSearchIndex.Name = "txtSearchIndex";
+            this.txtSearchIndex.Size = new System.Drawing.Size(35, 20);
+            this.txtSearchIndex.TabIndex = 23;
             // 
-            // textBox11
+            // txtLastIndexOf
             // 
-            this.textBox11.Location = new System.Drawing.Point(582, 181);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(35, 20);
-            this.textBox11.TabIndex = 24;
+            this.txtLastIndexOf.Location = new System.Drawing.Point(582, 181);
+            this.txtLastIndexOf.Name = "txtLastIndexOf";
+            this.txtLastIndexOf.Size = new System.Drawing.Size(35, 20);
+            this.txtLastIndexOf.TabIndex = 24;
             // 
             // label14
             // 
@@ -288,43 +288,43 @@
             this.label14.Text = "for this many characters:";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label15
+            // lblSubstring
             // 
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label15.Location = new System.Drawing.Point(442, 213);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(160, 15);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "txtInput.Text.Substring(18,7) =";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblSubstring.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSubstring.Location = new System.Drawing.Point(442, 213);
+            this.lblSubstring.Name = "lblSubstring";
+            this.lblSubstring.Size = new System.Drawing.Size(160, 15);
+            this.lblSubstring.TabIndex = 26;
+            this.lblSubstring.Text = "txtInput.Text.Substring(18,7) =";
+            this.lblSubstring.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox12
+            // txtEndIndex
             // 
-            this.textBox12.Location = new System.Drawing.Point(410, 211);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(26, 20);
-            this.textBox12.TabIndex = 27;
+            this.txtEndIndex.Location = new System.Drawing.Point(410, 211);
+            this.txtEndIndex.Name = "txtEndIndex";
+            this.txtEndIndex.Size = new System.Drawing.Size(26, 20);
+            this.txtEndIndex.TabIndex = 27;
             // 
-            // textBox13
+            // txtSubstringResult
             // 
-            this.textBox13.Location = new System.Drawing.Point(608, 211);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(77, 20);
-            this.textBox13.TabIndex = 28;
+            this.txtSubstringResult.Location = new System.Drawing.Point(608, 211);
+            this.txtSubstringResult.Name = "txtSubstringResult";
+            this.txtSubstringResult.Size = new System.Drawing.Size(77, 20);
+            this.txtSubstringResult.TabIndex = 28;
             // 
-            // textBox14
+            // txtRemoveResult
             // 
-            this.textBox14.Location = new System.Drawing.Point(322, 244);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(363, 20);
-            this.textBox14.TabIndex = 29;
+            this.txtRemoveResult.Location = new System.Drawing.Point(322, 244);
+            this.txtRemoveResult.Name = "txtRemoveResult";
+            this.txtRemoveResult.Size = new System.Drawing.Size(363, 20);
+            this.txtRemoveResult.TabIndex = 29;
             // 
-            // textBox15
+            // txtReplaceWith
             // 
-            this.textBox15.Location = new System.Drawing.Point(401, 274);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(88, 20);
-            this.textBox15.TabIndex = 30;
+            this.txtReplaceWith.Location = new System.Drawing.Point(401, 274);
+            this.txtReplaceWith.Name = "txtReplaceWith";
+            this.txtReplaceWith.Size = new System.Drawing.Size(88, 20);
+            this.txtReplaceWith.TabIndex = 30;
             // 
             // Btn_Test
             // 
@@ -334,10 +334,11 @@
             this.Btn_Test.TabIndex = 31;
             this.Btn_Test.Text = "Test";
             this.Btn_Test.UseVisualStyleBackColor = true;
+            this.Btn_Test.Click += new System.EventHandler(this.Btn_Test_Click);
             // 
             // Btn_Close
             // 
-            this.Btn_Close.Location = new System.Drawing.Point(593, 355);
+            this.Btn_Close.Location = new System.Drawing.Point(618, 355);
             this.Btn_Close.Name = "Btn_Close";
             this.Btn_Close.Size = new System.Drawing.Size(92, 23);
             this.Btn_Close.TabIndex = 32;
@@ -351,26 +352,26 @@
             this.ClientSize = new System.Drawing.Size(740, 406);
             this.Controls.Add(this.Btn_Close);
             this.Controls.Add(this.Btn_Test);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.txtReplaceWith);
+            this.Controls.Add(this.txtRemoveResult);
+            this.Controls.Add(this.txtSubstringResult);
+            this.Controls.Add(this.txtEndIndex);
+            this.Controls.Add(this.lblSubstring);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txtLastIndexOf);
+            this.Controls.Add(this.txtSearchIndex);
+            this.Controls.Add(this.lblLastIndexOf);
+            this.Controls.Add(this.lblIndexOf);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearchChar);
+            this.Controls.Add(this.txtToUpper);
+            this.Controls.Add(this.txtToLower);
+            this.Controls.Add(this.txtLastChar);
+            this.Controls.Add(this.txtReplaceResult);
+            this.Controls.Add(this.txtReplaceChars);
+            this.Controls.Add(this.txtRemove);
+            this.Controls.Add(this.txtStartIndex);
+            this.Controls.Add(this.txtLength);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
@@ -402,26 +403,26 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtLength;
+        private System.Windows.Forms.TextBox txtStartIndex;
+        private System.Windows.Forms.TextBox txtRemove;
+        private System.Windows.Forms.TextBox txtReplaceChars;
+        private System.Windows.Forms.TextBox txtReplaceResult;
+        private System.Windows.Forms.TextBox txtLastChar;
+        private System.Windows.Forms.TextBox txtToLower;
+        private System.Windows.Forms.TextBox txtToUpper;
+        private System.Windows.Forms.TextBox txtSearchChar;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label lblIndexOf;
+        private System.Windows.Forms.Label lblLastIndexOf;
+        private System.Windows.Forms.TextBox txtSearchIndex;
+        private System.Windows.Forms.TextBox txtLastIndexOf;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label lblSubstring;
+        private System.Windows.Forms.TextBox txtEndIndex;
+        private System.Windows.Forms.TextBox txtSubstringResult;
+        private System.Windows.Forms.TextBox txtRemoveResult;
+        private System.Windows.Forms.TextBox txtReplaceWith;
         private System.Windows.Forms.Button Btn_Test;
         private System.Windows.Forms.Button Btn_Close;
     }
